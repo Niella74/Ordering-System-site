@@ -1,0 +1,145 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="contactContainer">
+      <div class="HomeNavigation">
+            <a href="index.html"
+            ><img class="logo" src="image_674e8d20-removebg-preview.png" alt=""
+            /></a>
+            <div class="infoSection">
+            <a href="Menu.html">MENU</a>
+            <a href="contact.html">CONTACT</a>
+            </div>
+           <a href="cart.html"><img class="Cart" src="basket-removebg-preview.png" alt="" /></a>
+      </div>
+
+      <div class="contact-form-panel">
+        <form id="contactForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="e.g. Chinedu Okafor"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+234..."
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="reason">Enquiry Type</label>
+              <select id="reason" name="reason" required>
+                <option value="" disabled selected>Select your reason</option>
+                <option value="feedback">General Feedback</option>
+                <option value="order">Order Support</option>
+                <option value="catering">Outdoor Catering Services</option>
+              </select>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Type your request here..."
+                required
+              ></textarea>
+            </div>
+          </div>
+
+            <button id="submit" type="submit" class="submit-btn">Submit Form</button>
+        </form>
+      </div>
+      <footer class="footer">
+        <div class="footer-top">
+          <!-- Brand -->
+          <div class="footer-brand">
+            <div class="footer-brand-name">THE OWAMBE <span>GRILL</span></div>
+            <p class="footer-brand-desc">
+              Authentic Nigerian flame grill — built on tradition, fired by
+              passion.
+            </p>
+            <div class="footer-social">
+              <a href="#" class="social-btn" aria-label="Instagram"
+                ><i class="ti ti-brand-instagram"></i
+              ></a>
+              <a href="#" class="social-btn" aria-label="Twitter"
+                ><i class="ti ti-brand-twitter"></i
+              ></a>
+              <a href="#" class="social-btn" aria-label="Facebook"
+                ><i class="ti ti-brand-facebook"></i
+              ></a>
+              <a href="#" class="social-btn" aria-label="TikTok"
+                ><i class="ti ti-brand-tiktok"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-col">
+            <div class="footer-col-title">Contact</div>
+            <ul>
+              <li><a href="tel:08006926234">0800 692 6234</a></li>
+              <li>
+                <a href="mailto:hello@owambegrill.ng">hello@owambegrill.ng</a>
+              </li>
+              <li><a href="#">Order on WhatsApp</a></li>
+              <li><a href="#">Instagram DM</a></li>
+            </ul>
+          </div>
+
+          <!-- Hours -->
+          <div class="footer-col">
+            <div class="footer-col-title">Hours</div>
+            <ul>
+              <li><a href="#">Mon – Fri: 11am – 11pm</a></li>
+              <li><a href="#">Sat – Sun: 10am – 12am</a></li>
+              <li><a href="#">Public Holidays: Open</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bottom bar -->
+        <div class="footer-bottom">
+          <div class="footer-copy">
+            © 2026 The Owambe Grill. All rights reserved.
+          </div>
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Cookie Settings</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="ordering.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHECKOUT</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="CheckOutContainer">
+      <div class="HomeNavigation">
+        <a href="index.html"
+          ><img class="logo" src="image_674e8d20-removebg-preview.png" alt=""
+        /></a>
+        <div class="infoSection">
+          <a href="Menu.html">MENU</a>
+          <a href="contact.html">CONTACT</a>
+        </div>
+        <a href="cart.html"
+          ><img class="Cart" src="basket-removebg-preview.png" alt=""
+        /></a>
+      </div>
+
+      <div class="CheckOut">
+            <h3>Order Summary</h3>
+            <div class="subtotal">
+            <h3>Subtotal:</h3>
+            <div>$${formatPrice(totalPrice)}</div>
+            </div>
+            <div class="Total">
+            <h3>Estimated Total</h3>
+            <div>$${formatprice(totalPrice * 1.08)}</div>
+            </div>
+            <div>
+            <button class="checkout-btn">CheckOut</button>
+            </div>
+        </div>
+    </div>
+    <script src="ordering.js"></script>
+  </body>
+</html>

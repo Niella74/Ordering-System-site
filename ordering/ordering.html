@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Urban Grid Bistro - Order Online</title>
+    <!-- Links to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation Bar -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <h1>The Urban Grid Bistro</h1>
+            </div>
+            <div class="fulfillment-toggle">
+                <button class="toggle-btn active">Pickup</button>
+                <button class="toggle-btn">Delivery</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- App Layout Container -->
+    <div class="main-container">
+        
+        <!-- Interactive Menu Panel -->
+        <main class="menu-sections">
+            
+            <!-- Category: Appetizers -->
+            <section>
+                <h2 class="category-title">Appetizers & Starters</h2>
+                <div class="menu-grid">
+                    
+                    <div class="menu-card">
+                        <div class="item-image-placeholder">🍟 Truffle Fries Photo</div>
+                        <div class="item-details">
+                            <div class="item-header">
+                                <span class="item-name">Crispy Garlic Truffle Fries</span>
+                                <span class="item-price">$11.50</span>
+                            </div>
+                            <p class="item-desc">Hand-cut russet potatoes tossed in white truffle oil, grated parmesan cheese, and fresh rosemary.</p>
+                            <div class="tag-container">
+                                <span class="diet-tag">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="item-image-placeholder">🥑 Avocado Toast Photo</div>
+                        <div class="item-details">
+                            <div class="item-header">
+                                <span class="item-name">Artisanal Avocado Toast</span>
+                                <span class="item-price">$13.00</span>
+                            </div>
+                            <p class="item-desc">Toasted sourdough topped with smashed Hass avocado, heirloom cherry tomatoes, and feta crumbs.</p>
+                            <div class="tag-container">
+                                <span class="diet-tag">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Category: Mains -->
+            <section>
+                <h2 class="category-title">Mains & Entrées</h2>
+                <div class="menu-grid">
+                    
+                    <div class="menu-card">
+                        <div class="item-image-placeholder">🍔 Signature Burger Photo</div>
+                        <div class="item-details">
+                            <div class="item-header">
+                                <span class="item-name">The Signature Bistro Burger</span>
+                                <span class="item-price">$18.50</span>
+                            </div>
+                            <p class="item-desc">8oz custom beef blend patty, melted sharp cheddar, caramelized onions, and house burger sauce.</p>
+                            <div class="tag-container"></div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="item-image-placeholder">🐟 Atlantic Salmon Photo</div>
+                        <div class="item-details">
+                            <div class="item-header">
+                                <span class="item-name">Pan-Seared Atlantic Salmon</span>
+                                <span class="item-price">$26.00</span>
+                            </div>
+                            <p class="item-desc">Crispy-skinned salmon fillet served over wild mushroom risotto and roasted asparagus.</p>
+                            <div class="tag-container">
+                                <span class="diet-tag">Gluten-Free</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- Right Side Checkout Sidebar -->
+        <aside class="cart-panel">
+            <div class="cart-title">
+                <span>Your Order</span>
+                <span class="cart-count">2 Items</span>
+            </div>
+
+            <!-- Populated Cart Items Area -->
+            <div class="cart-items">
+                <div class="cart-item">
+                    <div class="cart-item-info">
+                        <span class="cart-item-qty">1x</span>
+                        <span>Crispy Garlic Truffle Fries</span>
+                    </div>
+                    <span>$11.50</span>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item-info">
+                        <span class="cart-item-qty">1x</span>
+                        <span>The Signature Bistro Burger</span>
+                    </div>
+                    <span>$18.50</span>
+                </div>
+            </div>
+
+            <!-- Financial Checkout Summary Block -->
+            <div class="cart-totals">
+                <div class="totals-row">
+                    <span>Subtotal</span>
+                    <span>$30.00</span>
+                </div>
+                <div class="totals-row">
+                    <span>Estimated Tax</span>
+                    <span>$2.55</span>
+                </div>
+                <div class="totals-row final-total">
+                    <span>Total</span>
+                    <span>$32.55</span>
+                </div>
+            </div>
+
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </aside>
+
+    </div>
+
+</body>
+</html>
